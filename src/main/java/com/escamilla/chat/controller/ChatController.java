@@ -20,7 +20,7 @@ public class ChatController {
     @MessageMapping("/chat.join")
     @SendTo("/topic/public")
     public Message addUser(@Payload Message message, SimpMessageHeaderAccessor headerAccessor) {
-        Objects.requireNonNull(headerAccessor.getSessionAttributes()).put("nickname", message.getAuthor());
+        headerAccessor.getSessionAttributes().put("nickname", message.getAuthor());
         return message;
     }
 }
