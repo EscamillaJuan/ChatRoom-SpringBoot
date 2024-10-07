@@ -55,22 +55,22 @@ To run this project locally, you will need to have the following installed:
    cd ChatRoom-SpringBoot/server
    ```
 3. Run server
-```bash
-./mvnw spring-boot:run
-```
+   ```bash
+   ./mvnw spring-boot:run
+   ```
 ## Frontend Setup
 1. Move to correct folder
-```bash
-cd ../client
-```
+   ```bash
+   cd ../client
+   ```
 2. Install dependencies
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 3. Start the React development server
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 ## WebSocket Endpoints
 - Subscribe: /topic/public – Receives messages sent to the chat room.
