@@ -1,10 +1,10 @@
 # Chat Room Application
 
 This project is a real-time chat room application built using **Spring Boot** on the backend and **React** on the frontend. It leverages **WebSocket** for real-time messaging and **Stomp** for handling communication between users. Users can join the chat room by entering their nickname and can send messages that are broadcasted to all connected clients in real-time.
-<div style="text-align: center;">
+<p align="center">
 <img src="https://github.com/EscamillaJuan/ChatRoom-SpringBoot/blob/main/home.png" alt="home" width="500"/>  
 <img src="https://github.com/EscamillaJuan/ChatRoom-SpringBoot/blob/main/room.png" alt="room" width="500"/>
-</div>
+</p>
 
 ## Table of Contents
 
