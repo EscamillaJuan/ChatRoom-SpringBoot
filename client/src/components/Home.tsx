@@ -34,6 +34,9 @@ export const Home: React.FC = () => {
                 onChange={(e) => setNickname(e.target.value)}
                 size="lg"
                 focusBorderColor="black"
+                onKeyDown={e => {
+                  if (e.key === 'Enter') handleNicknameSubmit();
+                }}
               />
               <Button
                 colorScheme="blue"
